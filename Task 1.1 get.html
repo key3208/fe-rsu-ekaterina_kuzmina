@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Advanced</title>
+</head>
+<body>
+
+  <h1>Registration form</h1>
+  
+  <form action="http://httpbin.org/get" method="get">
+    <fieldset>
+      <legend>Personal data</legend>
+	  <table>
+        <tr> 
+	      <td>First Name</td> 
+		  <td><input type="text" name="firstname"></td>
+        </tr> 
+		<tr> 
+	      <td>Surname</td>  
+		  <td><input type="text" name="surname"></td>
+		</tr> 
+		<tr> 
+	      <td rowspan="2">Sex</td> 
+		  <td><input type="radio" name="sex" value="male" checked>Male</td>
+		</tr>   
+		<tr>   
+          <td><input type="radio" name="sex" value="female">Female</td>
+		</tr> 
+      </table>		
+	</fieldset>
+	
+	<fieldset>
+      <legend>Contact Information</legend>
+	  <table>
+	    <tr> 
+	      <td>Site</td> 
+		  <td><input type="url" name="site"></td>
+	    </tr> 
+	    <tr> 
+	      <td>E-mail</td> 
+		  <td><input type="email" name="email"></td>
+	    </tr> 
+	    <tr> 
+	      <td>Phone</td> 
+		  <td><input type="tel" name="phone"></td>
+	    </tr> 
+      </table>	  
+	</fieldset>  
+	
+	<br>
+    <label><input type="submit" value="Отправить"></label>
+  </form>
+
+</body>
+</html>
