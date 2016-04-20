@@ -1,3 +1,4 @@
+"use strict";
 var a = prompt("User's name:");
 window.alert(a);
 
@@ -9,4 +10,4 @@ function Factorial(n) {
   window.alert(fact);
 }
 var d=prompt("Input number:");
-var result=Factorial(d);
+Factorial(d);
