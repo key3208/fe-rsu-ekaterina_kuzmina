@@ -1,0 +1,15 @@
+p {
+  font-family: serif;
+  font-size: 15pt;
+  background-color: #cad8d0;
+  padding: 15px;
+}
+
+@media screen and (max-device-width: 500px){
+  p {
+    font-family: serif;
+    font-size: 15pt;
+    background-color: #cad8d0;
+    padding: 15px;
+  }
+}

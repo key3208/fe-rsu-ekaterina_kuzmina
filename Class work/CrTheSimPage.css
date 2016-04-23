@@ -1,0 +1,87 @@
+.AllContent {
+  width: 320px;
+  height: 320px;
+  margin: auto;
+}
+
+h1 {
+  color: black;
+  font-size: 23pt;
+  font-family: Arial Narrow;
+  text-align: center; 
+}
+
+h1:hover {
+  font-size: 23pt;
+}
+
+h1:hover:before,
+h1:hover:after {
+  font-style: italic;
+  font-size: 15pt;
+}
+
+h1:hover:before {
+  content: "some ";
+}
+
+h1:hover:after {
+  content: " by NobodyRocks";
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border: 2px #ffffff solid;
+  margin: 4px 2px;
+  color: #ffffff;
+  font-family: Arial Narrow;
+  font-size: 20pt;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.Highlight:hover {
+  background-color: white;
+  color: #3498db;
+}
+
+
+.Fade:hover {
+  opacity: 0;
+}
+
+.Boom:hover {
+  transform: scale(2.2);
+  opacity: 0;
+}
+
+.Focus:hover {
+  border-width: 15px;
+}
+
+.Rotate:hover {
+  transform: rotate(90deg);
+}
+
+.Knit:hover {
+  height: 0;
+}
+
+.Shrink:hover {
+  transform: scale(0);
+}
+
+.Squeeze:hover {
+  transform: scale(1.5, 0);
+}
+
+.Deform:hover {
+  transform: skew(45deg, 45deg);
+}
+
+
+
+
+
