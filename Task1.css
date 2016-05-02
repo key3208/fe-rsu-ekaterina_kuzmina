@@ -1,0 +1,52 @@
+.top-menu {
+  display: block;
+  margin-top: -10px;
+  width: 100px;
+  background-color: #00BFFF;
+  border-radius: 0 0 10px 10px;
+  border-bottom: 2px solid #6495ED;
+  border-left: 2px solid #6495ED;
+  border-right: 2px solid #6495ED;
+  text-align: center;
+  font-size: 12pt;
+  color: white; 
+  padding: 10px;	
+}
+
+.top-menu:hover {
+  box-shadow: 0 5px 20px -2px #B0E0E6, -5px 0 20px -2px #B0E0E6, 5px 0 20px -2px #B0E0E6;
+}
+
+input {
+  display: none;
+}
+
+#topMenu:checked + label {
+  border-top: 2px solid #C0C0C0;
+  margin-top: 150px;
+}
+
+#topMenu:checked ~ #menu {
+  display: block;
+}
+
+#menu {
+  text-align: center;
+  font-size: 12pt;
+  color: white;
+  padding: 0;
+  margin-top: -192px;
+}
+
+#menu li {
+  width: 120px;
+  height: 20px;
+  background-color: #00BFFF;
+  border-left: 2px solid #6495ED;
+  border-right: 2px solid #6495ED;
+  padding-top: 10px;
+}
+
+#menu li:hover {
+  background-color: #1E90FF;
+}

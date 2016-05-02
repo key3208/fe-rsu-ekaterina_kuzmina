@@ -1,0 +1,223 @@
+.float {
+  width: 1000px;
+}
+
+.float-container {
+  float: left;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+
+.float-container img {
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  width: 250px;
+  height: 270px;
+  padding: 15px;
+}
+
+.float-container:hover .FloatImageHover {
+  opacity: 1;
+}
+
+.FloatImageHover {
+  position: absolute;
+  width: 250px;
+  height: 270px;
+  margin-top: 15px;
+  margin-left: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.FloatImageHover p {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight:600;
+  margin-top: 100px;
+}
+
+.FloatImageHover p span:nth-child(2) {
+  font-size: 13pt;
+  color: #A9A9A9;
+}
+
+.FloatImageHover p span:nth-child(3) {
+  font-size: 13pt;
+  color: #9ACD32;
+}
+
+.float-container .button {
+  font-family: sans-serif; 
+  font-size: 12pt;
+  color: #A9A9A9;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  float: left;
+  margin-top: 10px;
+  padding: 10px 29px;
+}
+
+.float-container .button:nth-child(5) {
+  margin-left: 36px;
+}
+
+.float-container .button:hover {
+  color: #FFFFFF;
+  background-color: #9ACD32;
+}
+
+.inline-box {
+  width: 1000px;
+}
+
+.inline-box-container {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.inline-box-container img {
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  width: 250px;
+  height: 270px;
+  padding: 15px;
+}
+
+.inline-box-container:hover .InlineImageHover {
+  opacity: 1;
+}
+
+.InlineImageHover {
+  position: absolute;
+  width: 250px;
+  height: 270px;
+  margin-top: 15px;
+  margin-left: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.InlineImageHover p {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600; 
+  margin-top: 100px;
+}
+
+.InlineImageHover p span:nth-child(2) {
+  font-size: 13pt;
+  color: #A9A9A9;
+}
+
+.InlineImageHover p span:nth-child(3) {
+  font-size: 13pt;
+  color: #9ACD32;
+}
+
+.inline-box-container .button {
+  font-family: sans-serif;
+  font-size: 12pt;
+  color: #A9A9A9;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 10px 28px;
+  display: inline-block;   
+}
+
+.inline-box-container .button:nth-child(5) {
+  margin-left: 36px;
+}
+
+.inline-box-container .button:hover {
+  color: #FFFFFF;
+  background-color: #9ACD32;
+}
+
+.flex_box {
+  display: flex; 
+  width: 1000px;  
+}
+
+.flex_box-align {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.flex_box-container:nth-child(4), .flex_box-container:nth-child(5), .flex_box-container:nth-child(6) {
+  margin-top: 20px;
+}
+
+.flex_box-container {
+  width: 290px;
+}
+
+.flex_box-container img {
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  width: 89%;
+  height: 270px;
+  padding: 15px;   
+}
+
+.flex_box-container:hover .FlexImageHover {
+  opacity: 1;
+}
+
+.FlexImageHover {
+  position: absolute;
+  width: 258px;
+  height: 270px;
+  margin-top: 15px;
+  margin-left: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.FlexImageHover p {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.FlexImageHover p span:nth-child(2) {
+  font-size: 13pt;
+  color: #A9A9A9;  
+}
+
+.FlexImageHover p span:nth-child(3) {
+  font-size: 13pt;
+  color: #9ACD32;   
+}
+
+.ButtonsRow {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;   
+}
+
+.ButtonsRow .button {
+  font-family: sans-serif;
+  font-size: 12pt;
+  color: #A9A9A9;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  padding: 10px 28px;
+}
+
+.ButtonsRow .button:hover {
+  color: #FFFFFF;
+  background-color: #9ACD32;
+}
+

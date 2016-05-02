@@ -1,0 +1,35 @@
+.caption {
+  height: 35px;
+  width: 87px;
+  background: #9370DB;
+  border-radius: 5px 5px 0 0; 
+  border-left: 1px solid blue;
+  border-top: 1px solid blue;
+  border-right: 1px solid blue;
+  box-shadow: 0 0 10px black;
+  font-size: 12pt;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #483D8B;
+  text-align: center;
+}
+
+p {
+  margin-top: 8px;
+}
+
+.text {
+  height: 220px;
+  width: 730px;
+  background: #9370DB;
+  border-radius: 0 5px 5px 5px;
+  box-shadow: 0 0 10px black;
+  margin-top: -10px;
+  font-family: sans-serif;
+  font-size: 11pt;
+  color: #483D8B;
+}
+
+.content {
+  padding: 10px;
+}
