@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" type="text/css" href="ClassWork.css">
+    <script type="text/javascript" src="ClassWork.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6"><h1 id="header">ToDO List</h1></div>
+          <div class="col-lg-3"></div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+              <div class="frame">
+                 <ul id="list">
+                  <li><input type ="checkbox" id="check1" class="chkBox"><label for='check1'>ToDO Item 1</label></li>
+                  <li><input type ="checkbox" id="check2" class="chkBox"><label for='check2'>ToDO Item 2</label></li>
+                  <li><input type ="checkbox" id="check3" class="chkBox"><label for='check3'>ToDO Item 3</label></li>
+                  <li><input type ="checkbox" id="check4" class="chkBox"><label for='check4'>ToDO Item 4</label></li>
+                  <li><input type ="checkbox" id="check5" class="chkBox"><label for='check5'>ToDO Item 5</label></li>
+                 </ul>
+              </div>
+              <br>
+              <!--Nothing to Add-->
+              <div class="Window" id="nothing">
+                  <h4>Nothing to Add!!!</h4>
+                  <hr>
+                  <div class="row">
+                     <div class="col-lg-4"></div>
+                      <div class="col-lg-4"><button type="button" class="btn btn-default" id="btnClose">Close</button></div>
+                     <div class="col-lg-4"></div>
+                  </div>
+                  <br>
+              </div>
+              <!--window-->
+              <div class="Window" id="popup">
+                  <h4>Are you sure?</h4>
+                  <hr>
+                  <div class="question" id="quest"></div>
+                  <div class="row">
+                      <div class="col-lg-6"><button type="button" class="btn btn-default" id="btnYes">Yes</button></div>
+                      <div class="col-lg-6"><button type="button" class="btn btn-default" id="btnNo">No</button></div>
+                  </div>
+                  <br>
+              </div>
+              <div class="row">
+                  <div class="col-lg-8"><input type="text" class="form-control" placeholder="ToDo text" id="textInpt"></div>
+                  <div class="col-lg-4"><button type="button" class="btn btn-default" id="btnAdd">Add</button></div>
+          </div>
+              <br>
+          <div class="row">
+             <div class="col-lg-12"><button type="button" class="btn btn-default" id="btnDelete">Delete notes</button></div>
+          </div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
